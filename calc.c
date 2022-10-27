@@ -59,7 +59,9 @@ default:
 printf("Wrong operator option picked.");
 break;
 }
-//         The default is used to end a switch statement 
+//         The default is used to end a switch statement
+//         In this case only the basic operators have been assigned  that is -+/* 
+//         and hence if other operators are used then the program will inform the user that they have used a wrong operator
 //step 4
 float correctAns;
 if(oper=='a'){
