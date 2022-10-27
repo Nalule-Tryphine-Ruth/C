@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+// This is a must use library in every c program 
 int main()
 {
 //introduce the program
@@ -41,6 +42,7 @@ case'a':
 printf("what is %d+%d?",firstnumber,secondnumber);
 scanf("%f",&answer);
 break;
+//                 the break shows that a case clause has been ended
 case'b':
 printf("what is %d-%d?",firstnumber,secondnumber);
 scanf("%f",&answer);
@@ -57,6 +59,7 @@ default:
 printf("Wrong operator option picked.");
 break;
 }
+//         The default is used to end a switch statement 
 //step 4
 float correctAns;
 if(oper=='a'){
